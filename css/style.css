@@ -720,9 +720,12 @@ section.footer-sec {
     justify-content: center;
 }
 .fot {
+    width: 100%;
     display: flex;
     gap: 4%;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
 }
 .fot div {
     width: auto;
